@@ -13,3 +13,6 @@ Build webpack bundle for production (Netlify build command):
 Locally serve app with Express out of dist folder (for testing Express):
 
 `npm run run-node`
+
+Todo:
+- Add React Router

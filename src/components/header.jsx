@@ -5,11 +5,12 @@ import styled from 'styled-components';
 const Self = styled.div`
   width: 100%;
   height: 10vh;
-  color: blue;
+  background-color: lightblue;
+  color: white;
 `;
 
 export default () => (
   <Self>
-    <h4>Header!</h4>
+    <p>Header!</p>
   </Self>
 );
