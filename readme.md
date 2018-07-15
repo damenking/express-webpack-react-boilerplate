@@ -1,4 +1,8 @@
-Install:
+Clone repo:
+
+`git clone https://github.com/damenking/express-webpack-react-boilerplate.git`
+
+In terminal, cd into project directory and install node modules:
 
 `npm install`
 
