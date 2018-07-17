@@ -1,7 +1,5 @@
 {
-    "presets": [
-      "env",
-      "react",
-      "stage-2"
-    ]
-  }
+  parser: 'babel-eslint',
+  extends: 'airbnb',
+  plugints: ['react', 'jsx-ally', 'import', 'html'],
+}
