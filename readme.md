@@ -1,19 +1,17 @@
-Clone repo:
+Requires nodejs >= v8
 
-`git clone https://github.com/damenking/express-webpack-react-boilerplate.git`
+Git init project then pull repo:
 
-In terminal, cd into project directory and install node modules:
+`git pull https://github.com/damenking/express-webpack-react-boilerplate.git`
+
+Cd into project directory and install node modules:
 
 `npm install`
 
-Run with webpack dev server:
+Run webpack watch and nodemon for development:
 
 `npm start`
 
-Build webpack bundle for production:
+Build webpack bundle for deployment:
 
 `npm run build`
-
-Locally serve app with Express out of dist folder (for testing Express):
-
-`npm run serve`

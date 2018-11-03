@@ -1,7 +1,7 @@
-const webpack = require('webpack');
+// const webpack = require('webpack');
 
 module.exports = {
-  entry: ['react-hot-loader/patch', './src/app.jsx'],
+  entry: ['./src/app.jsx'],
   module: {
     rules: [
       {
@@ -23,7 +23,7 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js',
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
+  plugins: [],
   devServer: {
     contentBase: './dist',
     hot: true,
