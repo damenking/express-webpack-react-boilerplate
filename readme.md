@@ -10,10 +10,10 @@ Run with webpack dev server:
 
 `npm start`
 
-Build webpack bundle for production (Netlify build command):
+Build webpack bundle for production:
 
 `npm run build`
 
 Locally serve app with Express out of dist folder (for testing Express):
 
-`npm run run-node`
+`npm run serve`
