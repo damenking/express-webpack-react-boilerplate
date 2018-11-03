@@ -1,5 +1,25 @@
 {
-  parser: 'babel-eslint',
-  extends: 'airbnb',
-  plugints: ['react', 'jsx-ally', 'import', 'html'],
+  presets: [
+    [
+      "@babel/env",
+      {
+        targets: {
+          browsers: ["last 2 versions"]
+        }
+      }
+    ],
+    [
+      "@babel/preset-react",
+      {
+        targets: {
+          browsers: ["last 2 versions"]
+        }
+      }
+    ]
+  ],
+  plugins: [
+    "babel-plugin-styled-components",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-class-properties"
+  ]
 }

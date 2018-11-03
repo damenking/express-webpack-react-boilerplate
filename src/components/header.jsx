@@ -1,17 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-
-const Self = styled.div`
-  width: 100%;
-  height: 10vh;
-  background-color: lightblue;
-  color: white;
-`;
+import React from "react";
 
 export default () => (
-  <Self>
-    <p>
-Header!
-    </p>
-  </Self>
+  <div className="header">
+    <h2>Header!</h2>
+  </div>
 );
